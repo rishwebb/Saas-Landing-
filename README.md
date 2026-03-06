@@ -53,6 +53,8 @@ Built for quick iteration and easy customization.
 
 ## 🚀 Quick Start
 
+Prerequisite: **Node.js 18+**
+
 ```bash
 npm install
 npm run dev
