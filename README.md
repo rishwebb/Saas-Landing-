@@ -1,4 +1,23 @@
-# Design System — SaaS Landing Page ✨
+<div align="center">
+
+<!-- Banner gradient via SVG badge trick -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF6B35,F7C59F&height=200&section=header&text=Pay%20Page%20for%20Editor&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Beautiful%20Pricing%20Calculator%20for%20Creative%20Professionals&descAlignY=58&descSize=16" width="100%" alt="Design System — SaaS Landing Page"/>
+
+<br/>
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Lucide Icons](https://img.shields.io/badge/Lucide_Icons-F56565?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+
+<br/>
+
+> ✨ An elegant, fully-interactive pricing calculator page for photography editors and creative studios — with instant quotes, smooth animations, and a seamless booking checkout flow.
+
+<br/>
+
+</div>
 
 Beautiful, responsive React components and a polished landing page template built with Vite and composable UI primitives.
 
