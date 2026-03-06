@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,100:2CB67D&height=220&section=header&text=SaaS%20Landing%20Page&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Modern%20React%20%2B%20Vite%20template%20for%20design-system%20focused%20products&descAlignY=60&descSize=15" width="100%" alt="SaaS Landing Page banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,100:2CB67D&height=220&section=header&text=SaaS%20Landing%20Page&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Modern%20React%20%2B%20Vite%20template%20for%20design-system%20focused%20products&descAlignY=60&descSize=15" width="100%" alt="SaaS Landing Page banner with gradient background" />
 
 <p>
   <a href="https://react.dev"><img src="https://img.shields.io/badge/React-18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React 18"/></a>
