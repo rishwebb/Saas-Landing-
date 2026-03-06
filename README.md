@@ -1,138 +1,110 @@
 <div align="center">
 
-<!-- Banner gradient via SVG badge trick -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF6B35,F7C59F&height=200&section=header&text=Pay%20Page%20for%20Editor&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Beautiful%20Pricing%20Calculator%20for%20Creative%20Professionals&descAlignY=58&descSize=16" width="100%" alt="Design System — SaaS Landing Page"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,100:2CB67D&height=220&section=header&text=SaaS%20Landing%20Page&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Modern%20React%20%2B%20Vite%20template%20for%20design-system%20focused%20products&descAlignY=60&descSize=15" width="100%" alt="SaaS Landing Page banner with gradient background" />
 
-<br/>
+<p>
+  <a href="https://react.dev"><img src="https://img.shields.io/badge/React-18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React 18"/></a>
+  <a href="https://vite.dev"><img src="https://img.shields.io/badge/Vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite 6"/></a>
+  <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-Ready-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-F7B500?style=for-the-badge" alt="MIT License"/></a>
+</p>
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Lucide Icons](https://img.shields.io/badge/Lucide_Icons-F56565?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-
-<br/>
-
-> ✨ An elegant, fully-interactive pricing calculator page for photography editors and creative studios — with instant quotes, smooth animations, and a seamless booking checkout flow.
-
-<br/>
+<h3>✨ Elegant. Fast. Component-first.</h3>
+<p>A polished SaaS landing page starter with animated sections, clear pricing blocks, and reusable UI components.</p>
 
 </div>
 
-Beautiful, responsive React components and a polished landing page template built with Vite and composable UI primitives.
+---
+
+## 🌈 Why this project?
+
+This repository is a clean starter for building product marketing pages with a design-system mindset.  
+It includes a complete landing flow:
+
+- Hero
+- Features
+- Pricing
+- Testimonials
+- Footer
+
+Built for quick iteration and easy customization.
 
 ---
 
-## Preview
+## 🧩 Highlights
 
-> A refined landing layout and a small component library ideal for SaaS marketing pages, demos, and design-system experimentation.
-
-_Drop screenshots or a short GIF here to showcase the hero and core components._
-
----
-
-## Table of contents
-
-- **About:** What this repo contains
-- **Features:** Highlights and included components
-- **Built With:** Key technologies
-- **Quick Start:** Run locally
-- **Project Structure:** Where to look
-- **Contributing:** How to help
-- **Credits & License:** Attribution and legal
+- Responsive layout with modern visual hierarchy
+- Reusable UI primitives in `src/components/ui/`
+- Smooth motion details in hero and section transitions
+- Radix-based component foundations
+- Friendly structure for extending into a full product site
 
 ---
 
-## About
+## 🛠️ Tech Stack
 
-This repository contains a design-first SaaS landing page and a lightweight component set focused on clarity, accessibility, and composability. It’s intended as a starter template for marketing sites or a sandbox for design-system ideas.
-
-The original design is available in Figma: https://www.figma.com/design/nG1Oq65ra04jFPgKTECcky/Design-System-SaaS-Landing-Page
-
----
-
-## Features
-
-- Clean, responsive landing layout (Hero, Features, Pricing, Testimonials, Footer)
-- Composable UI primitives in `src/ui/` (buttons, inputs, dialogs, cards, etc.)
-- Accessible patterns and keyboard-friendly components
-- Minimal Vite-based tooling for fast iteration
+- **React 18**
+- **Vite 6**
+- **TypeScript**
+- **Radix UI primitives**
+- **Lucide icons**
 
 ---
 
-## Built With
+## 🚀 Quick Start
 
-- Vite — fast bundling and dev server
-- React 18 — modern component model
-- Small, composable UI primitives in `src/ui/`
-- Design guidance in `src/guidelines`
+Prerequisite: **Node.js 18+**
 
----
-
-## Quick Start
-
-1. Install dependencies:
-
-```
+```bash
 npm install
-```
-
-2. Start the dev server:
-
-```
 npm run dev
 ```
 
-3. Build for production:
+Visit: `http://localhost:5173`
 
-```
+Build for production:
+
+```bash
 npm run build
 ```
 
-Open the site at `http://localhost:5173` (Vite default).
+---
+
+## 📁 Project Structure
+
+```text
+src/
+├─ components/
+│  ├─ HeroSection.tsx
+│  ├─ FeaturesSection.tsx
+│  ├─ PricingSection.tsx
+│  ├─ TestimonialsSection.tsx
+│  └─ ui/                # reusable component primitives
+├─ guidelines/
+│  └─ Guidelines.md
+├─ App.tsx
+└─ main.tsx
+```
 
 ---
 
-## Project Structure (high level)
+## 🎨 Design Reference
 
-- `src/` — source files and components
-  - `src/components/` — page sections (Hero, Header, Footer, etc.)
-  - `src/ui/` — reusable primitives and utilities
-  - `src/guidelines/Guidelines.md` — design notes and tokens
-
-See the design guidance: [src/guidelines/Guidelines.md](src/guidelines/Guidelines.md#L1)
+Figma source:  
+https://www.figma.com/design/nG1Oq65ra04jFPgKTECcky/Design-System-SaaS-Landing-Page
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome. For a smooth review experience:
+Contributions are welcome.
 
-- Open an issue to discuss large changes
-- Keep pull requests focused (one component or one page)
-- Include screenshots for visual updates
-
----
-
-## Accessibility & Design Notes
-
-This project emphasizes semantic markup and accessible interactions. When you add components, include keyboard support and appropriate ARIA attributes.
-
-Design tokens and guidelines live in `src/guidelines`.
+1. Keep PRs focused and small.
+2. Include screenshots for visual changes.
+3. Prefer reusable components over one-off styles.
 
 ---
 
-## Credits
+## 📄 License
 
-- Design inspired by the public Figma file linked above.
-- Component patterns follow community best-practices (Radix, utility-first patterns).
-
----
-
-## License
-
-This template is provided as-is. Add a license file or set the `license` field in `package.json` to reflect your chosen license.
-
----
-
-If you want a different tone (minimal, corporate, playful), extra badges, or a generated hero image, tell me which direction and I’ll update the README accordingly.
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE).
